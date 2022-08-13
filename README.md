@@ -1,4 +1,5 @@
 # ranking-discord
 
 SabotenBOT用機能
-※Tokenを掲載しないこと
+
+First Committed By 天江衣
