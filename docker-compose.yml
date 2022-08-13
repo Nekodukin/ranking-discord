@@ -1,0 +1,13 @@
+version: "3"
+services:
+  rankingbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: "rankingbot"
+    environment:
+      TZ: Asia/Tokyo
+    restart: always
+    tty: true
+    volumes:
+      - ./app:/app
